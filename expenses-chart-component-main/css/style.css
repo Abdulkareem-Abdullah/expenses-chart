@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(27, 66%, 92%);
+    font-family:cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.container1 {
+    max-width: 1100px;
+    margin: 4.6rem auto;
+
+}
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.container .head {
+    background-color:  hsl(10, 79%, 65%);
+    min-width: 430px;
+    margin: auto;
+    border-radius: 13px;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10rem;
+    height: 15vh;
+}
+.head .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.text h5 {
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+}
+.text h1 {
+    font-size: 25px;
+    color: white;
+}
+.logo img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.container .chart {
+    background-color: white;
+    min-width: 430px;
+    margin: -1rem auto;
+    border-radius: 13px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.main-chart {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: flex-end;
+    height: 13rem;
+    border-bottom: 2px solid  hsl(30, 89%, 93%);
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.chart .duration h1 {
+    font-size: 20px;
+}
+.mon p {
+    font-size: 14px;
+    color: hsl(28, 10%, 53%);
+    font-weight: 500;
+}
+.mon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mon-block {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.tue-block {
+    width: 40px;
+    height: 80px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.wed-block {
+    width: 40px;
+    height: 120px;
+    background-color:  hsl(186, 34%, 60%);
+    border-radius: 5px;
+}
+.thur-block {
+    width: 40px;
+    height: 75px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.fri-block {
+    width: 40px;
+    height: 55px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.sat-block {
+    width: 40px;
+    height: 95px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.sun-block {
+    width: 40px;
+    height: 60px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+}
+.monthly {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    align-items: center;
+}
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.total h5 {
+    font-size: 14px;
+    color:  hsl(28, 10%, 53%);
+    margin-bottom: -0.3rem;
+    font-weight: 300;
+}
+.total h1 {
+    font-size: 30px;
+    color: hsl(25, 47%, 15%);
+}
+.last {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem 0 0;
+}
+.last h5{
+    font-size: 13px;
+    color: hsl(25, 47%, 15%);
+}
+.last h3 {
+    font-size: 14px;
+    color:  hsl(28, 10%, 53%);
+    font-weight: 300;
+}
